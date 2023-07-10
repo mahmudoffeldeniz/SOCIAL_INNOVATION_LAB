@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/main.css">
+  <link rel="stylesheet" href="./src/animate.min.css">
+  <link rel="stylesheet" href="./src/css_bootstrap.min.css">
+  <link rel="stylesheet" href="./src/font_bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+
+  <div class="container-fluid  navbar-light bg-light shadow position-fixed z-index justify-content-center" id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Development</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-auto" id="navbarNav">
+          <ul class="navbar-nav  mx-auto text-center animate__animated animate__fadeInDown">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#pricing">Pricing</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link " href="#location">Location</a>
+            </li>
+            <div class="d-flex ">
+              <li class="nav-item">
+                <a class="nav-link login-mobile" href="./login.html">Log in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sign-mobile" href="./signup.html">Sign up</a>
+              </li>
+            </div>
+
+          </ul>
+
+          <a href="./signup.html"><button class="btn sign text-bg-danger shadow " id="btn">Sign up</button></a>
+          <a href="./login.html"><button class="btn text-bg-light shadow m-1" id="btn">Log in</button></a>
+
+        </div>
+
+      </div>
+    </nav>
+  </div>
+  <br><br>
+
+  </head>
+
+  <body>
+    <div class="contune" id="home">
+      <img src="./src/img/bg.jpg ">
+      <div class="text-block animate__animated animate__fadeInTopLeft wow">
+        <h3><b>“</b><br> Trust us and we will take you to the top</h3>
+        <br>
+        <p class="tt-text">Lorem ipsum dolor sit amet consectetur adipisicing <elit class="br"></elit> Minima et
+          praesentium vitae quidem reiciendis quas cupiditate quibusdam provident doloribus?</p>
+      </div>
+    </div>
+    <div class="container">
+      <hr>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide ">
+            <b class="tak">“</b>
+            <h3>Lorem ipsum dolor sit amet. <br> sit amet consectetur adipisicing elit. <br> fugiat natus saepe
+              itaque iste est repellendus <br></h3>
+            <div class="col d-flex"><br><br><br>
+              <div class="col img-carusel">
+                <img class="img-carusell" src="./src/img/man2.jpeg" alt="">
+              </div>
+              <div class="col">
+                <h5>lorem ipsun</h5>
+                <p> laborum veritatis</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"><b class="tak">“</b>
+            <h3>Lorem ipsum dolor sit amet. <br> sit amet consectetur adipisicing elit. <br> fugiat natus saepe
+              itaque iste est repellendus <br></h3>
+            <div class="col d-flex"><br><br><br>
+              <div class="col img-carusel">
+                <img class="img-carusell" src="./src/img/man.jpeg" alt="">
+              </div>
+              <div class="col">
+                <h5>lorem ipsun</h5>
+                <p> laborum veritatis</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"><b class="tak">“</b>
+            <h3>Lorem ipsum dolor sit amet. <br> sit amet consectetur adipisicing elit. <br> fugiat natus saepe
+              itaque iste est repellendus <br></h3>
+            <div class="col d-flex"><br><br><br>
+              <div class="col img-carusel">
+                <img class="img-carusell" src="./src/img/man2.jpeg" alt="">
+              </div>
+              <div class="col">
+                <h5>lorem ipsun</h5>
+                <p> laborum veritatis</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"><b class="tak">“</b>
+            <h3>Lorem ipsum dolor sit amet. <br> sit amet consectetur adipisicing elit. <br> fugiat natus saepe
+              itaque iste est repellendus <br></h3>
+            <div class="col d-flex"><br><br><br>
+              <div class="col img-carusel">
+                <img class="img-carusell" src="./src/img/man3.png" alt="">
+              </div>
+              <div class="col">
+                <h5>lorem ipsun</h5>
+                <p> laborum veritatis</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div><br><br><br>
+        <div class="autoplay-progress">
+          <svg viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span></span>
+        </div>
+      </div>
+    </div><br><br><br>
+    <div class="container">
+      <section id="features" class="features">
+        <div class="container">
+          <div class="section-title">
+            <hr>
+          </div>
+          <div class="col">
+            <h2>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Aut, mollitia.</h2>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
+              <div class="content d-flex flex-column justify-content-center">
+                <div class="row  animate__animated animate__lightSpeedInLeft wow">
+                  <div class="col-md-6 icon-box" data-aos="fade-up">
+                    <i class="bi bi-question-circle-fill"></i>
+
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et recusandae nam velit veniam
+                      cum adipisci eligendi tenetur, porro quam veritatis! Sed, nemo necessitatibus unde voluptate ipsam
+                      animi</p>
+                    </a>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bi bi-code-square"></i>
+
+                    <h4>Fugit animi voluptas optio.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem facilis neque, atque maxime non modi
+                      accusamus, praesentium vel, nesciu?</p>
+                    </a>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-badge-3d-fill"></i>
+
+                    <h4>Ipsum dolor sit, amet </h4>
+                    <p> Reiciendis necessitatibus, quae unde veritatis nobis itaque sequi voluptatibus eaque incidunt
+                      eniet.</p>
+                    </a>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-android2"></i>
+                    <h4> Reprehenderit laborum </h4>
+                    <p> Delectus laudantium eius soluta suscipit sit! Qui amet ea voluptate est ullam porro quam
+                      quisquam ipsam laborum illo </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2"
+              data-aos="fade-left" id="more" data-aos-delay="100">
+              <div class="box-3">
+
+                <img src="./src/img/menicerr.png" class="img-8 animate__animated animate__jackInTheBox wow" alt="">
+                <div class="box4 d-flex animate__animated animate__bounceInRight animate__delay-1s  wow">
+                  <i class="bi bi-graph-up-arrow icon-t4 justify-content-center d-flex"></i>
+                  <div class="text215">215 new clients</div>
+                  <div class="box4-1"></div>
+                  <div class="box4-2"></div>
+                </div>
+                <div class="box5 d-flex animate__animated animate__bounceInRight animate__delay-1s  wow">
+                  <i class="bi bi-check-circle icon-t5 justify-content-center d-flex"></i>
+                  <div class="text216">Project Updated</div>
+                  <div class="box5-1"></div>
+                  <div class="box5-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="team text-center animate__animated animate__bounceInLeft wow">
+            <h1>Our Team</h1>
+          </div>
+        </div>
+    </div>
+    </section>
+
+
+    <center>
+      <div class="container" id="team">
+        <div class="row">
+          <div class="container" style="background-color: #f1f1f100; ">
+            <div class="card-group border border-0">
+              <div class="card">
+                <img src="./src/img/teamg2.jpg" width="100%" height="100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Liam Johnson</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                  <p class="card-text"><i class="fab fa-whatsapp"><i> +10 123 6778
+                        90</i></i><br>
+                    <i class="fa-regular fa-envelope"><b> liamjohnson@gmail.com</b>
+                    </i>
+                  </p>
+
+                </div>
+              </div>
+              <div class="card">
+                <img src="./src/img/teamm3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Emma Smith</h5>
+                  <p class="card-text">Lorem, ipsum dolor.</p>
+                  <p class="card-text"><i class="fab fa-whatsapp"><i> +10 123 6778
+                        90</i></i><br>
+                    <i class="fa-regular fa-envelope"><b> emmasmith@gmail.com</b>
+                    </i>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./src/img/teamg3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">William Davis</h5>
+                  <p class="card-text">Eius quis deserunt voluptatem a.</p>
+                  <p class="card-text"><i class="fab fa-whatsapp"><i> +10 123 6778
+                        90</i></i><br>
+                    <i class="fa-regular fa-envelope"><b> williamdavis@gmail.com</b>
+                    </i>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container border border-0">
+            <div class="card-group">
+              <div class="card">
+                <img src="./src/img/teamm1.jpg" width="100%" height="100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Oliver Anderson</h5>
+                  <p class="card-text">Lorem, ipsum dolor.</p>
+                  <p class="card-text"><i class="fab fa-whatsapp"><i> +10 123 6778
+                        90</i></i><br>
+                    <i class="fa-regular fa-envelope"><b> oliveranderson@gmail.com</b>
+                    </i>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./src/img/businesswoman.jpeg" width="100%" height="100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mia Davis</h5>
+                  <p class="card-text">Lorem, ipsum dolor.</p>
+                  <p class="card-text"><i class="fab fa-whatsapp"><i> +10 123 6778
+                        90</i></i><br>
+                    <i class="fa-regular fa-envelope"><b> miadavis@gmail.com</b>
+                    </i>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./src/img/teamm2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Henry Martin</h5>
+                  <p class="card-text">Lorem, ipsum dolor.</p>
+                  <p class="card-text"><i class="fab fa-whatsapp"><i> +10 123 6778
+                        90</i></i><br>
+                    <i class="fa-regular fa-envelope"><b> henrymartin@gmail.com</b>
+                    </i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+    <div class="container">
+      <div class="row content" id="about">
+        <h1 class="text-center animate__animated animate__bounceInLeft wow">Who are we?</h1>
+        <div class="col-md-4" data-aos="fade-right"><br><br>
+          <img src="./src/img/team.png" class="img-fluid animate__animated animate__bounceInLeft wow" alt="">
+        </div>
+        <div class="col-md-8 pt-4 justify-content-center animate__animated animate__bounceInRight wow" data-aos="fade-up">
+          <ul>
+            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quae esse dolorum!</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corporis explicabo quod reprehenderit?
+              Neque nostrum distinctio fugiat aperiam error necessitatibus amet non, corporis explicabo adipisci tempore
+              consectetur magnam a, sequi temporibus. Rem omnis doloribus tempore nemo et incidunt recusandae earum
+              sequi? Numquam sed, laudantium provident odit neque doloremque nobis! Odio at, cupiditate, expedita,
+              dolore quas id est ab aliquid repellat iure sequi porro ipsum unde optio. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Eligendi explicabo dignissimos nam quaerat. Laborum minus, distinctio aut,
+              ipsum consequuntur veniam tempore a ratione sunt odio magnam. Incidunt excepturi quo repellat et officiis!
+              Eius est numquam impedit eveniet quidem suscipit. Eveniet rem excepturi esse eos dolores fuga
+              necessitatibus adipisci voluptatibus quae delectus perspiciatis sint hic exercitationem, sit dolore
+              perferendis quos reiciendis natus eaque qui quod eius ea consequuntur deserunt. Deserunt sed beatae
+              facilis itaque numquam earum nesciunt molestias unde quam! Aut eius voluptatibus officia quae beatae
+              molestiae tempora deserunt maiores libero?</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row content justify-content-center">
+        <div class="col-md-8 pt-5 animate__animated animate__bounceInLeft wow" data-aos="fade-up">
+          <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quae esse dolorum!</h5>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corporis explicabo quod reprehenderit?
+            Neque nostrum distinctio fugiat aperiam error necessitatibus amet non, corporis explicabo adipisci tempore
+            consectetur magnam a, sequi temporibus. Rem omnis doloribus tempore nemo et incidunt recusandae earum
+            sequi? Numquam sed, laudantium provident odit neque doloremque nobis! Odio at, cupiditate, expedita,
+            dolore quas id est ab aliquid repellat iure sequi porro ipsum unde optio. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Eligendi explicabo dignissimos nam quaerat. Laborum minus, distinctio aut,
+            ipsum consequuntur veniam tempore a ratione sunt odio magnam. Incidunt excepturi quo repellat et officiis!
+            Eius est numquam impedit eveniet quidem suscipit. Eveniet rem excepturi esse eos dolores fuga
+            necessitatibus adipisci voluptatibus quae delectus perspiciatis sint hic exercitationem, sit dolore
+            perferendis quos reiciendis natus eaque qui quod eius ea consequuntur deserunt. Deserunt sed beatae
+            facilis itaque numquam earum nesciunt molestias unde quam! Aut eius voluptatibus officia quae beatae
+            molestiae tempora deserunt maiores libero?</p>
+        </div>
+        <div class="col-md-3" data-aos="fade-right"><br><br>
+          <img src="./src/img/pngfind.com-business-man-png-1737582.png" class="img-fluid animate__animated animate__bounceInRight wow w-80 dropup-center h-60"
+            alt="">
+        </div>
+      </div>
+      <hr><br>
+    </div>
+    <div class="container animate__animated animate__fadeIn wow" id="blog">
+      <center>
+        <div class="text ">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="./src/img/Image.png" width="100%" height="100%" class="img-fluid rounded-start">
+            </div>
+            <div class="col-md-6 mt-5">
+              <div class="cards-body text-center">
+                <h5 class="title">Get your most important tasks done in no time</h5>
+                <p class="text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <form>
+                  <fieldset>
+                    <legend ">Name</legend>
+                     <input type=" text" name="YourName" class="inp-t" required placeholder="Enter your Name..">
+                  </fieldset><br>
+                  <fieldset>
+                    <legend ">Email</legend>
+                     <input type=" text" name="YourEmail" class="inp-t" required placeholder="Enter your Email..">
+                  </fieldset><br><input type="checkbox" required> <i>I agree to the terms and conditions</i> <br><br>
+                  <button class=" text-bg-danger btn-inp ">Sign up</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+
+
+
+
+    <!-- *cat watsapp* -->
+
+    <button class="open-button" onclick="openForm()"><i class="bi bi-chat-dots-fill"></i></button>
+
+    <div class="chat-popup" id="myForm">
+      <form class="form-container">
+        <h1>Chat</h1>
+
+        <label for="msg"><b>Message <i>+994 51 000 00 00</i></b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+
+        <button type="submit" class="btn send shadow">Send</button>
+        <button type="button" class="btn cancel close" onclick="closeForm()"><i
+            class="bi bi-x-circle close"></i></button>
+      </form>
+    </div>
+
+
+
+    <div class="container animate__animated animate__fadeIn wow" id="pricing"><br><br><br>
+      <div class="container">
+        <h1 class=" wow text-center">
+          Pricing</h1>
+        <div class="columns">
+          <ul class="price">
+            <li class="bas">Basic</li>
+            <li class="grey">$ 9.99 / year</li>
+            <li>10GB Storage</li>
+            <li>10 Emails</li>
+            <li>10 Domains</li>
+            <li>1GB Bandwidth</li>
+            <li class="grey"><button class="button">Get Started</button></li>
+          </ul>
+        </div>
+        <div class="columns">
+          <ul class="price">
+            <li class="bas">Pro</li>
+            <li class="grey">$ 24.99 / year</li>
+            <li>25GB Storage</li>
+            <li>25 Emails</li>
+            <li>25 Domains</li>
+            <li>2GB Bandwidth</li>
+            <li class="grey"><button class="button">Get Started</button></li>
+          </ul>
+        </div>
+        <div class="columns">
+          <ul class="price">
+            <li class="bas">Premium</li>
+            <li class="grey">$ 49.99 / year</li>
+            <li>50GB Storage</li>
+            <li>50 Emails</li>
+            <li>50 Domains</li>
+            <li>5GB Bandwidth</li>
+            <li class="grey"><button class="button">Get Started</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 animate__animated animate__fadeIn wow">
+      <h1 class="text-center">
+        Location <i class="bi bi-geo-alt-fill" id="location"></i> </h1>
+      <iframe style="height: 500px; width: 100%;"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+        frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-section">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_hISLmVmo2x.json" background="transparent"
+          speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+      </div>
+      <div class="footer-section">
+        <h4>Media</h4>
+        <ul>
+          <li><a href="#more">More</a></li>
+          <li><a href="#">Error</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#"><i class="fab fa-whatsapp"><samp> +10 123 6778 90</samp></i></a></li>
+          <li><a href="#"><i class="fa-regular fa-envelope"><samp>
+                  development@gmail.com</samp></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-section social">
+        <h4>Follow us on social<i class="bi bi-check2-circle"></i></h4>
+        <ul class="sosial-media-icon d-flex ">
+          <li><i class="bi bi-instagram i-f"></i></li>
+          <li><i class="bi bi-facebook i-f"></i></li>
+          <li><i class="bi bi-linkedin i-f"></i></li>
+          <li><i class="bi bi-github i-f"></i></li>
+          <li><i class="bi bi-telegram i-f"></i></li>
+        </ul>
+      </div>
+      <div class="footer-end text-center mt-3"><br>
+        <p> <span class="text-center mt-5">© Development 2023</span></p>   
+      </div>
+    </footer>
+    <script src="./src/js_bootstrap.bundle.min.js"></script>
+    <script src="./src/swiper-bundle.min.js"></script>
+    <script src="./src/wow.min.js"></script>
+    <script src="./src/script.js"></script>
+
+  </body>
+
+</html>

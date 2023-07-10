@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/main.css">
+  <link rel="stylesheet" href="./src/animate.min.css">
+  <link rel="stylesheet" href="./src/css_bootstrap.min.css">
+  <link rel="stylesheet" href="./src/font_bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+
+
+  <div class="container-fluid  navbar-light bg-light shadow position-fixed z-index justify-content-center" id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Development</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-auto" id="navbarNav">
+          <ul class="navbar-nav  mx-auto text-center animate__animated animate__fadeInDown">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./index.html#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./index.html#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./index.html#location">Location</a>
+            </li>
+            <div class="d-flex ">
+              <li class="nav-item">
+                <a class="nav-link login-mobile" href="./login.html">Log in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sign-mobile" href="./signup.html">Sign up</a>
+              </li>
+            </div>
+          </ul>
+          <a href="./signup.html"><button class="btn text-bg-danger shadow " id="btn">Sign up</button></a>
+          <a href="./login.html"><button class="btn text-bg-light shadow m-1" id="btn">Log in</button></a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <br><br>
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <form class="login-form2 animate__animated animate__bounceInLeft wow">
+        <h2>Sign up</h2> <img class="login-img2" src="./src/img/sign1.png" alt="">
+        <div class="form-group">
+          <label for="text">First Name</label>
+          <input type="text" id="email" name="email" placeholder="Enter your first name.." required>
+        </div>
+        <div class="form-group">
+          <label for="text">Last Name</label>
+          <input type="text" id="email" name="email" placeholder="Enter your last name.." required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-posta:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your e-posta.." required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter your password.." name="password" required>
+        </div>
+        <center>
+        <input type="checkbox" required> <i>I agree to the terms and conditions</i>
+        <button type="submit" class="login-btn mt-3" value="login">Submit</button>
+      </center>
+      </form>
+    </div>r
+
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+      <div class="footer-section">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_hISLmVmo2x.json" background="transparent"
+          speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+      </div>
+      <div class="footer-section">
+        <h4>Media</h4>
+        <ul>
+          <li><a href="home.html">More</a></li>
+          <li><a href="doctors.html">Error</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#"><i class="fab fa-whatsapp"><samp> +10 123 6778 90</samp> </i></a>
+          </li>
+          <li><a href="#"><i class="fa-regular fa-envelope"><samp>
+                  development@gmail.com</samp>
+              </i></a></li>
+        </ul>
+      </div>
+      <div class="footer-section social">
+        <h4>Follow us on social <i class="bi bi-check2-circle"></i></h4>
+        <ul class="sosial-media-icon d-flex ">
+          <li><i class="bi bi-instagram i-f"></i></li>
+          <li><i class="bi bi-facebook i-f"></i></li>
+          <li><i class="bi bi-linkedin i-f"></i></li>
+          <li><i class="bi bi-github i-f"></i></li>
+          <li><i class="bi bi-telegram i-f"></i></li>
+        </ul>
+      </div><br><br>
+      <div class="footer-end text-center"><br>
+        <p><span>©
+            Development 2023</span></p>
+      </div>
+    </footer>
+    <script src="./src/js_bootstrap.bundle.min.js"></script>
+    <script src="./src/swiper-bundle.min.js"></script>
+    <script src="./src/wow.min.js"></script>
+    <script src="./src/script.js"></script>
+  </body>
+
+</html>
