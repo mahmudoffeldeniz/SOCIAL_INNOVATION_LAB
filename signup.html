@@ -17,45 +17,45 @@
 
 
 
-  <div class="container-fluid  navbar-light bg-light shadow position-fixed z-index justify-content-center" id="navbar">
+  <div class="container-fluid  nav-color shadow position-fixed z-index justify-content-center" id="navbar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Development</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <a class="navbar-brand text-light" href="./index.html">Development</a>
+        <button class="navbar-toggler bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="bi bi-justify text-info"></span>
         </button>
         <div class="collapse navbar-collapse mx-auto" id="navbarNav">
           <ul class="navbar-nav  mx-auto text-center animate__animated animate__fadeInDown">
             <li class="nav-item">
-              <a class="nav-link active" href="./index.html">Home</a>
+              <a class="nav-link active text-light" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./index.html#about">About us</a>
+              <a class="nav-link text-light" href="./index.html#about">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./index.html#team">Our Team</a>
+              <a class="nav-link text-light" href="./index.html#team">Our Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="./index.html#blog">Blog</a>
+              <a class="nav-link text-light" href="./index.html#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="./index.html#pricing">Pricing</a>
+              <a class="nav-link text-light" href="./index.html#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="./index.html#location">Location</a>
+              <a class="nav-link text-light" href="./index.html#contact">Contact</a>
             </li>
             <div class="d-flex ">
               <li class="nav-item">
-                <a class="nav-link login-mobile" href="./login.html">Log in</a>
+                <a class="nav-link text-light login-mobile" href="./login.html">Log in</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link sign-mobile" href="./signup.html">Sign up</a>
+                <a class="nav-link text-light sign-mobile" href="./signup.html">Sign up</a>
               </li>
             </div>
           </ul>
           <a href="./signup.html"><button class="btn text-bg-danger shadow " id="btn">Sign up</button></a>
-          <a href="./login.html"><button class="btn text-bg-light shadow m-1" id="btn">Log in</button></a>
+          <a href="./login.html"><button class="btn  text-bg-primary shadow m-1" id="btn">Log in</button></a>
         </div>
       </div>
     </nav>
@@ -88,7 +88,25 @@
         <button type="submit" class="login-btn mt-3" value="login">Submit</button>
       </center>
       </form>
-    </div>r
+    </div>
+
+
+     <!-- *cat watsapp* -->
+
+     <button class="open-button" onclick="openForm()"><i class="bi bi-chat-dots-fill"></i></button>
+
+     <div class="chat-popup" id="myForm">
+       <form class="form-container">
+         <h1>Chat</h1>
+ 
+         <label for="msg"><b>Message <i>+994 51 000 00 00</i></b></label>
+         <textarea placeholder="Type message.." name="msg" required></textarea>
+ 
+         <button type="submit" class="btn send shadow">Send</button>
+         <button type="button" class="btn cancel close" onclick="closeForm()"><i
+             class="bi bi-x-circle close"></i></button>
+       </form>
+     </div>
 
 
     <!-- Footer -->
@@ -99,22 +117,28 @@
           speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
       </div>
       <div class="footer-section">
-        <h4>Media</h4>
+        <h4>Our campany</h4>
         <ul>
-          <li><a href="home.html">More</a></li>
-          <li><a href="doctors.html">Error</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="#"> Lorem ipsum</a></li>
+          <li><a href="#"> dolor sit amet </a></li>
+          <li><a href="#">consectetur </a></li>    
+          
+          
+         <!-- adipisicing elit.  illum deleniti fuga officia ducimus 
+          
+         dolores, eius voluptate consequuntur odit ab, -->
+        
         </ul>
       </div>
       <div class="footer-section">
-        <h4>Contact</h4>
+        <h4>Fugit totam</h4>
         <ul>
-          <li><a href="#"><i class="fab fa-whatsapp"><samp> +10 123 6778 90</samp> </i></a>
-          </li>
-          <li><a href="#"><i class="fa-regular fa-envelope"><samp>
-                  development@gmail.com</samp>
-              </i></a></li>
+          <li><a href="#">illo aut incidunt</a></li>
+          <li><a href="#">culpa quisquam impedit.</a></li>
+          <li><a href="#">odio atque Cumque.</a></li>
+          
         </ul>
+               
       </div>
       <div class="footer-section social">
         <h4>Follow us on social <i class="bi bi-check2-circle"></i></h4>
@@ -124,13 +148,14 @@
           <li><i class="bi bi-linkedin i-f"></i></li>
           <li><i class="bi bi-github i-f"></i></li>
           <li><i class="bi bi-telegram i-f"></i></li>
-        </ul>
-      </div><br><br>
+        </ul><br><br><br><br>
+      </div><br><br><br><br>
       <div class="footer-end text-center"><br>
         <p><span>©
             Development 2023</span></p>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="./src/js_bootstrap.bundle.min.js"></script>
     <script src="./src/swiper-bundle.min.js"></script>
     <script src="./src/wow.min.js"></script>
